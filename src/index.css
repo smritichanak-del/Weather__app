@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #0f2027, #203a43);
+  color: white;
+}
+
+/* APP */
+.app {
+  max-width: 360px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* SEARCH */
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 15px;
+  border: none;
+}
+
+.search-box button {
+  padding: 12px;
+  border-radius: 15px;
+  border: none;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+}
+
+/* CARD */
+.card {
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+}
+
+/* CITY */
+.city {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* ICON */
+.icon {
+  width: 110px;
+}
+
+/* TEMP */
+.temp {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+/* DETAILS */
+.details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.details div {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* FORECAST */
+.forecast {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.forecast-card {
+  min-width: 80px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.08);
+}
+
+.day {
+  font-size: 12px;
+}
+
+.temp-small {
+  font-size: 16px;
+}
